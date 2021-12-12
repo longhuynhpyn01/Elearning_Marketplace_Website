@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.title-page {
+    color: rgb(254, 134, 109) !important;
+    font-size: 1.5em !important;
+}
+
+.nav-header {
+    border: 1px solid rgb(134, 134, 134) !important;
+}
+
+.user-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.logout-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+
+.user-item,
+.dropdown-menu {
+    background-color: rgb(234, 234, 234) !important;
+}
+
+.dropdown-divider {
+    border-top: 1px solid #000 !important;
+}
+
+.search-bar {
+    width: 40rem !important;
+    border-radius: 10rem !important;
+    border: 2px solid rgb(49, 157, 142) !important;
+}
+
+.sign-item {
+    background-color: rgb(49, 157, 142);
+    border-radius: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000 !important;
+}
+
+.card-form {
+    width: 22rem;
+}
+
+.card-header {
+    height: 6rem;
+    font-size: 1.3rem;
+}
+
+.reset-item {
+    height: auto;
+}
+
+.noti-reset {
+    font-size: 1rem;
+}
+
+.line {
+    background: #dadce0;
+    height: 1px;
+    width: 100%;
+}
+
+.text-line {
+    text-transform: uppercase;
+    position: relative;
+    background-color: #fff;
+    top: -29px;
+    padding: 14px;
+}
+
+.logo-item:hover {
+    color: #000 !important;
+    background-color: rgb(240, 240, 240) !important;
+    border: 4px solid rgb(134, 134, 134) !important;
+}
+
+footer {
+    border: 1px solid rgb(134, 134, 134) !important;
+}

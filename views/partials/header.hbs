@@ -1,0 +1,58 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light nav-header">
+    <div class="container-fluid d-flex justify-content-around">
+        <a class="navbar-brand title-page text-center mx-6" href="/">E-Learning</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <form class="d-flex search-form" id="search-form mx-4">
+            <input class="form-control me-2 search-bar" id="searchText" type="search" placeholder="Search for anything" aria-label="Search">
+        </form>
+        <ul class="navbar-nav mr-auto d-flex justify-content-end w-100 mx-4">
+            <li class="nav-item mx-2">
+                <a class="nav-link" href="/">Courses</a>
+            </li>
+            <li class="nav-item mx-2">
+                <a class="nav-link" href="/">My Learning</a>
+            </li>
+            <li class="nav-item mx-2">
+                <a class="nav-link" href="/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                    </svg>
+                    Cart
+                </a>
+            </li>
+             <li class="nav-item mx-2 sign-item">
+                <a class="nav-link" href="/login">
+                    <span class="text-white">Sign In</span>
+                </a>
+            </li>
+             <li class="nav-item mx-2 sign-item">
+                <a class="nav-link" href="/signup">
+                    <span class="text-white">Sign Up</span>
+                </a>
+            </li>
+            <li class="nav-item ml-2 mr-4">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="https://avatar-redirect.appspot.com/google/101418215578229362988?size=400" class="user-avatar"></img>
+                                5k Group
+                            </a>
+                            <div class="dropdown-menu user-item" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Cập nhật thông tin</a>
+                            <a class="dropdown-item" href="/change-password">Đổi mật khẩu</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="/auth/logout">
+                                <img class="logout-icon" src="https://img.icons8.com/metro/26/000000/exit.png"/>
+                                Đăng xuất
+                            </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>    
+            </li>
+        </ul>
+  </div>
+</nav>
